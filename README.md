@@ -1,2 +1,4 @@
 # tictactoe
-It's siple tictactoe game enjoy it  ;-)
+It's simple tictactoe game enjoy it  ;-)
+Don't be sad it's my first big project and it will 
+be added in pieces it still needs some work 
