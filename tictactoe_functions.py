@@ -80,3 +80,30 @@ this function checks that a particular position is free or not
 '''
 def space_check(board,position):
     return board[position] == " "
+#step 8
+'''
+this function uses the sapce_check function to check weather the board is full
+or not 
+'''
+def full_board_check(board):
+    for i in range(1,10):
+        if space_check(board,i):
+            return False
+    return True
+
+#step 9
+'''
+this function checks that the position enters by player is valid or not 
+'''
+def player_choice(board):
+    position = 0
+    while position not in [1,2,3,4,5,6,7,8,9] or not space_check(board,position):
+        position = int(input("enter the position: (1 ,9)"))
+    return position
+#step 10
+'''
+this function asks palyers that they want to play again or not after end of game 
+'''
+def replay():
+    choice = input("play again Yes or No ")
+    return choice == 'Yes'
