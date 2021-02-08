@@ -107,3 +107,5 @@ this function asks palyers that they want to play again or not after end of game
 def replay():
     choice = input("play again Yes or No ")
     return choice == 'Yes'
+'''i am re-commitinf it because it is not appearing on github '''
+
