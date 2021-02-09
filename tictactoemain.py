@@ -1,3 +1,4 @@
+from tictactoe_functions.py import *
 '''
 in this block we are arranging the function inside the loops to make the game
 work 
